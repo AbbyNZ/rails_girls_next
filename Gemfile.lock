@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     activemodel (5.2.1)
-      activesupport (= 5.2.1)
-    activerecord (5.2.1)
+      activesupport (>= 5.2.4.3)
+    activerecord (>= 5.2.4.5)
       activemodel (= 5.2.1)
       activesupport (= 5.2.1)
       arel (>= 9.0)
@@ -21,7 +21,7 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     mustermann (1.0.3)
-    rack (2.0.6)
+    rack (>= 2.1.4)
     rack-protection (2.0.3)
       rack
     rack-test (0.6.3)
